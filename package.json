@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "start": "vite",
     "lint": "node ./node_modules/eslint/bin/eslint.js --ext .jsx --ext .js --ext .ts --ext .tsx src/",
-    "fix": "prettier-eslint --write 'src/**/*.{js,jsx}'"
+    "fix": "node ./node_modules/eslint/bin/eslint.js --ext .jsx --ext .js --ext .ts --ext .tsx src/ --fix"
   },
   "dependencies": {
     "react": "^18.2.0",

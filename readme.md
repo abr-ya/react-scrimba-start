@@ -3,8 +3,8 @@
 
 # создание
 - npm create vite@latest
-- React
-- JS (без TypeScrypt)
+  - React
+  - JS (без TypeScrypt)
 - .eslintrc.json скопировал из проекта, указанного выше,
 - добавил в конфиг "plugin:react/jsx-runtime", т.к. Реакт уже 18й,
 - порт запуска поменял на 3000.
@@ -34,9 +34,4 @@ npm run lint
 ## run Prettier fix files
 ```
 npm run fix
-```
-
-## run Jest and React Testing Library test
-```
-npm run test
 ```
